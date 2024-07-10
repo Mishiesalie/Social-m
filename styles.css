@@ -26,3 +26,9 @@ body {
     box-shadow: inset -16px -16px 29px #c8c8c8,
                 inset 16px 16px 29px #ffffff;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
