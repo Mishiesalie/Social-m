@@ -66,4 +66,13 @@ input:focus {
     outline: 1px solid lightgrey;
   }
 
+  button:hover {
+    cursor: pointer;
+    color: rgb(240, 240, 240);
+    background-color: rgb(80, 80, 80);
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
