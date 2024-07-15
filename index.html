@@ -6,88 +6,119 @@
     <title>Social Media Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="dashboard">
-        <div class="header">
-            <h1>Social Media Dashboard</h1>
-            <p>Total Followers: 23,004</p>
-            <div class="dark-mode-toggle">
-                <label for="dark-mode">Dark Mode</label>
-                <input type="checkbox" id="dark-mode">
-            </div>
+<body class="dark-theme || light-theme">
+    <header class="dark-theme || light-theme">
+      <div class="header-wrapper">
+        <div class="title-followers">
+          <h1>Social Media Dashboard</h1>
+          <h3>Total Followers: 2,00,000</h3>
         </div>
-        <div class="stats">
-            <div class="stat-box facebook">
-                <h2>@nathanf</h2>
-                <p class="followers">1987</p>
-                <p>Followers</p>
-                <p class="change">▲ 12 Today</p>
-            </div>
-            <div class="stat-box twitter">
-                <h2>@nathanf</h2>
-                <p class="followers">1044</p>
-                <p>Followers</p>
-                <p class="change">▲ 99 Today</p>
-            </div>
-            <div class="stat-box instagram">
-                <h2>@realnathanf</h2>
-                <p class="followers">11k</p>
-                <p>Followers</p>
-                <p class="change">▲ 1099 Today</p>
-            </div>
-            <div class="stat-box youtube">
-                <h2>Nathan F.</h2>
-                <p class="followers">8239</p>
-                <p>Subscribers</p>
-                <p class="change">▼ 144 Today</p>
-            </div>
+        <hr>
+        <div class="color-toggle">
+          <p class="toggle">Dark Mode</p>
+          <label class="switch">
+            <input id="toggle" class="dark-mode" type="checkbox" unchecked>
+            <span class="slider round"></span>
+          </label>
         </div>
-        <div class="overview">
-            <h2>Overview - Today</h2>
-            <div class="overview-grid">
-                <div class="overview-box">
-                    <h3>Page Views</h3>
-                    <p class="platform facebook">87</p>
-                    <p class="change">▲ 3%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Likes</h3>
-                    <p class="platform facebook">52</p>
-                    <p class="change">▼ 2%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Likes</h3>
-                    <p class="platform instagram">5462</p>
-                    <p class="change">▲ 2257%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Profile Views</h3>
-                    <p class="platform instagram">52k</p>
-                    <p class="change">▲ 1375%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Retweets</h3>
-                    <p class="platform twitter">117</p>
-                    <p class="change">▲ 303%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Likes</h3>
-                    <p class="platform twitter">507</p>
-                    <p class="change">▲ 553%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Likes</h3>
-                    <p class="platform youtube">107</p>
-                    <p class="change">▼ 19%</p>
-                </div>
-                <div class="overview-box">
-                    <h3>Total Views</h3>
-                    <p class="platform youtube">1407</p>
-                    <p class="change">▼ 12%</p>
-                </div>
-            </div>
+      </div>
+    </header>
+    <div class="kpi-wrapper">
+      <div class="kpi-card">
+        <div class="card-top-facebook"></div>
+        <div class="kpi-card-top">
+          <div class="icon"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+          <div class="handle"><p>@coding_master</p></div>
         </div>
+        <div class="kpi">23K</div>
+        <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+        <div><p class="delta up">&#9652; 110 Today</p></div>
+      </div>
+      <div class="kpi-card">
+        <div class="card-top-twitter"></div>
+        <div class="kpi-card-top">
+          <div class="icon"><img src="resources/images/icon-twitter.svg" alt="twitter"></div>
+          <div class="handle"><p>@coding_master</p></div>
+        </div>
+        <div class="kpi">1.2K</div>
+        <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+        <div><p class="delta up">&#9652; 73 Today</p></div>
+      </div>
+      <div class="kpi-card">
+        <div class="card-top-instagram"></div>
+        <div class="kpi-card-top">
+          <div class="icon"><img src="resources/images/icon-instagram.svg" alt="instagram"></div>
+          <div class="handle"><p>@coding_master</p></div>
+        </div>
+        <div class="kpi">185k</div>
+        <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+        <div><p class="delta up">&#9652; 600 Today</p></div>
+      </div>
+      <div class="kpi-card">
+        <div class="card-top-youtube"></div>
+        <div class="kpi-card-top">
+          <div class="icon"><img src="resources/images/icon-youtube.svg" alt="youtube"></div>
+          <div class="handle"><p>Coding Master</p></div>
+        </div>
+        <div class="kpi">10.5K</div>
+        <div><h4 class="unit-of-measure">SUBSCRIBERS</h4></div>
+        <div><p class="delta down">&#9662; 104 Today</p></div>
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+    <div class="overview-header">
+      <h2>Overview - today</h2>
+    </div>
+    <div class="overview-kpis">
+      <div class="overview-wrapper">
+        <div class="kpi-small">
+          <div class="page-views">Page Views</div>
+          <div class="logo"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+          <div class="views">153</div>
+          <div class="movement up">&#9652; 7%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Likes</div>
+          <div class="logo"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+          <div class="views">78</div>
+          <div class="movement down">&#9662; 5%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Likes</div>
+          <div class="logo"><img src="resources/images/icon-instagram.svg" alt="instagram"></div>
+          <div class="views">7894</div>
+          <div class="movement up">&#9652; 4311%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Profile Views</div>
+          <div class="logo"><img src="resources/images/icon-instagram.svg" alt="instagram"></div>
+          <div class="views">76K</div>
+          <div class="movement up">&#9652; 3751%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Retweets</div>
+          <div class="logo"><img src="resources/images/icon-twitter.svg" alt="twitter"></div>
+          <div class="views">95</div>
+          <div class="movement up">&#9652; 124%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Likes</div>
+          <div class="logo"><img src="resources/images/icon-twitter.svg" alt="twitter"></div>
+          <div class="views">788</div>
+          <div class="movement up">&#9652; 233%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Likes</div>
+          <div class="logo"><img src="resources/images/icon-youtube.svg" alt="youtube"></div>
+          <div class="views">2172</div>
+          <div class="movement down">&#9662; 49%</div>
+        </div>
+        <div class="kpi-small">
+          <div class="page-views">Total Views</div>
+          <div class="logo"><img src="resources/images/icon-youtube.svg" alt="youtube"></div>
+          <div class="views">450</div>
+          <div class="movement down">&#9662; 62%</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
