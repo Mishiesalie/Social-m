@@ -30,3 +30,21 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 /* #endregion */
 
+/* #region Header*/
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    height: 280px;
+}
+hr {
+    display: none;
+}
+.color-toggle {
+    float: right;
+    top: -83px;
+    position: relative;
+    width: 180px;
+    display: flex;
+}
+
