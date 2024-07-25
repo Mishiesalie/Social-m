@@ -130,3 +130,22 @@ hr {
     border-radius: 50%;
   }
 
+/* #endregion */
+/* #region Top KPIs*/
+.kpi-card {
+  background: #ebf1ff;
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.kpi-wrapper {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  top: -120px;
+  display: flex;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
