@@ -203,3 +203,23 @@ img {
   font-size: 65px;
   font-weight: bold;
 }
+
+.unit-of-measure {
+  color: hsl(228, 12%, 44%);
+  font-weight: normal;
+  letter-spacing: 6px;
+  text-align: center;
+  top: -20px;
+  position: relative;
+  }
+.delta {
+  text-align: center;
+  }
+.up {
+  color: #10bf66;
+  font-weight: bold;
+  }
+.down {
+  color: red;
+  font-weight: bold;
+}
