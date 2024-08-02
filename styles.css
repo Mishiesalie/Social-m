@@ -223,3 +223,20 @@ img {
   color: red;
   font-weight: bold;
 }
+
+/* #endregion */
+/* #region Overview*/
+.overview-header {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.overview-wrapper {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  display: flex;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
