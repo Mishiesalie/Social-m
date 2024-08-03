@@ -240,3 +240,23 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.kpi-small {
+  width: 300px;
+  background: #ebf1ff;
+  margin: 10px;
+  height: 150px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 3fr 1.3fr;
+  grid-template-rows: 1fr 1fr;
+}
+.overview-kpis {
+  align-content: space-evenly;
+  width: 100%;
+  position: relative;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -110px;
+}
