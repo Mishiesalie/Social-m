@@ -260,3 +260,27 @@ img {
   margin-right: auto;
   top: -110px;
 }
+
+.page-views {
+  padding-left: 40px;
+  color: hsl(228, 12%, 44%);
+  padding-top: 34px;
+  font-size: 16px;
+}
+.logo {
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: right;
+  padding-right: 30px;
+}
+.views {
+  padding-top: 5px;
+  padding-left: 40px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.movement {
+  padding-top: 25px;
+  text-align: right;
+  padding-right: 30px;
+}
