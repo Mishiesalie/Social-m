@@ -318,3 +318,15 @@ img {
       width: 90%;
       margin-left: 20px;
   }
+
+  .kpi-wrapper {
+    top: -30px;
+    transition: ease-in-out 0.5s; 
+    }
+hr {
+    display: block;
+    width: 90%;
+    top: 20px;
+    position: relative;
+}
+
