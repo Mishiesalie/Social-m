@@ -330,3 +330,20 @@ hr {
     position: relative;
 }
 
+h3 {
+  top: 10px;
+  }
+header {
+  background-color: white;
+  transition: ease-in-out 0.5s;
+}
+h2 {
+  top: 0px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+}
+.overview-kpis {
+  top: -80px;
+}
+}
+
