@@ -347,3 +347,14 @@ h2 {
 }
 }
 
+
+@media (max-width: 640px) {
+  .kpi-card {
+      width: 350px;
+  }
+  .kpi-small {
+      width: 350px;
+  }
+  .card-top-facebook {
+      width: 350px;
+  }
