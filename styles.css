@@ -358,3 +358,13 @@ h2 {
   .card-top-facebook {
       width: 350px;
   }
+  .card-top-twitter {
+    width: 350px;
+}
+.card-top-instagram {
+    width: 350px;
+}
+.card-top-youtube {
+    width: 350px;
+}
+}
