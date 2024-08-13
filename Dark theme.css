@@ -6,3 +6,14 @@ html, body {
     font-size: 14px;
     flex: auto;
 }
+h1 {
+    font-size: 40px;
+    top: 20px;
+    position: relative;
+}
+h2 {
+    color: hsl(228, 12%, 44%);
+    font-size: 28px;
+    top: -100px;
+    position: relative;
+}
