@@ -17,3 +17,13 @@ h2 {
     top: -100px;
     position: relative;
 }
+h3 {
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    color: hsl(228, 12%, 44%);
+}
+p {
+    position: relative;
+    color: hsl(228, 12%, 44%);
+}
