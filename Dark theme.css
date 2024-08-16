@@ -27,3 +27,14 @@ p {
     position: relative;
     color: hsl(228, 12%, 44%);
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* #endregion */
+/* #region Header*/
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    height: 280px;
+}
