@@ -48,3 +48,16 @@ hr {
     width: 180px;
     display: flex;
 }
+.header-wrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.toggle {
+    color: hsl(228, 12%, 44%);
+    font-weight: bold;
+    font-size: 19px;
+    flex: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
