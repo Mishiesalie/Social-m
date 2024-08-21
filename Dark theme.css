@@ -90,3 +90,16 @@ hr {
     -webkit-transition: .4s;
     transition: .4s;
   }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 6px;
+    bottom: 3px;
+    background-color: #20222f;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
