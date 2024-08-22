@@ -103,3 +103,12 @@ hr {
     transition: .4s;
   }
   
+  input:checked + .slider {
+
+    background-color: #3f95cd; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #3f95cd , #3ecc8e);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px hsl(228, 12%, 44%);
+  }
