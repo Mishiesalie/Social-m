@@ -112,3 +112,19 @@ hr {
   input:focus + .slider {
     box-shadow: 0 0 1px hsl(228, 12%, 44%);
   }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(32px);
+    -ms-transform: translateX(32px);
+    transform: translateX(32px);
+    background-color: white;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
