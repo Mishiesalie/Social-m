@@ -128,3 +128,13 @@ hr {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  /* #endregion */
+/* #region Top KPIs*/
+.kpi-card {
+  background: #ebf1ff;
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+}
