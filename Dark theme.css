@@ -138,3 +138,14 @@ hr {
   margin: 10px;
   border-radius: 8px;
 }
+
+.kpi-wrapper {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  top: -120px;
+  display: flex;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
