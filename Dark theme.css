@@ -156,3 +156,10 @@ hr {
   background-color: #168ff7;
   border-radius: 8px 8px 0px 0px;
 }
+
+.card-top-twitter {
+  width: 300px;
+  height: 5px;
+  background-color: #1da1f3;
+  border-radius: 8px 8px 0px 0px;
+}
