@@ -167,7 +167,16 @@ hr {
 .card-top-instagram {
   width: 300px;
   height: 5px;
-  background-color: #e74f98; /* For browsers that do not support gradients */
+  background-color: #e74f98; 
+
+  /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #ffbd67 , #e74f98);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-top-youtube {
+  width: 300px;
+  height: 5px;
+  background-color: #c30028;
   border-radius: 8px 8px 0px 0px;
 }
