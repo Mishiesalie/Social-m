@@ -180,3 +180,9 @@ hr {
   background-color: #c30028;
   border-radius: 8px 8px 0px 0px;
 }
+
+.kpi-card-top {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  padding-top: 20px;
+}
