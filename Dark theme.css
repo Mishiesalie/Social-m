@@ -186,3 +186,12 @@ hr {
   grid-template-columns: 1fr 1.2fr;
   padding-top: 20px;
 }
+
+.icon {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.handle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
