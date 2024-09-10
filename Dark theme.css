@@ -195,3 +195,11 @@ hr {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+img {
+  height: 25px;
+}
+.icon {
+  text-align: right;
+  padding-right: 10px;
+}
