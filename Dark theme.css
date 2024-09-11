@@ -203,3 +203,9 @@ img {
   text-align: right;
   padding-right: 10px;
 }
+
+.kpi {
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+}
