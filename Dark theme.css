@@ -209,3 +209,12 @@ img {
   font-size: 65px;
   font-weight: bold;
 }
+
+.unit-of-measure {
+  color: hsl(228, 12%, 44%);
+  font-weight: normal;
+  letter-spacing: 6px;
+  text-align: center;
+  top: -20px;
+  position: relative;
+  }
