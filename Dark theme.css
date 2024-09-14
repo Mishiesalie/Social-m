@@ -217,8 +217,13 @@ img {
   text-align: center;
   top: -20px;
   position: relative;
-  }
+}
 
-  .delta {
-    text-align: center;
-    }
+.delta {
+  text-align: center;
+}
+
+.up {
+  color: #10bf66;
+  font-weight: bold;
+  }
