@@ -227,3 +227,8 @@ img {
   color: #10bf66;
   font-weight: bold;
   }
+
+  .down {
+    color: red;
+    font-weight: bold;
+}
