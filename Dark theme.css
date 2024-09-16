@@ -232,3 +232,11 @@ img {
     color: red;
     font-weight: bold;
 }
+
+/* #endregion */
+/* #region Overview*/
+.overview-header {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
