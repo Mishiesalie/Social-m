@@ -261,3 +261,13 @@ img {
   grid-template-columns: 3fr 1.3fr;
   grid-template-rows: 1fr 1fr;
 }
+
+.overview-kpis {
+  align-content: space-evenly;
+  width: 100%;
+  position: relative;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -110px;
+}
