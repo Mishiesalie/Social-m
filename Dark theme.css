@@ -272,3 +272,9 @@ img {
   top: -110px;
 }
 
+.logo {
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: right;
+  padding-right: 30px;
+}
