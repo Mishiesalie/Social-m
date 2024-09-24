@@ -278,3 +278,10 @@ img {
   text-align: right;
   padding-right: 30px;
 }
+
+.views {
+  padding-top: 5px;
+  padding-left: 40px;
+  font-size: 35px;
+  font-weight: bold;
+}
