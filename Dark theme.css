@@ -285,3 +285,9 @@ img {
   font-size: 35px;
   font-weight: bold;
 }
+
+.movement {
+  padding-top: 25px;
+  text-align: right;
+  padding-right: 30px;
+}
