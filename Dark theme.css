@@ -330,19 +330,25 @@ img {
   .kpi-wrapper {
     top: -30px;
     transition: ease-in-out 0.5s; 
- }
+  }
 
  hr {
-  display: block;
-  width: 90%;
-  top: 20px;
-  position: relative;
-}
-
-h3 {
-  top: 10px;
+   display: block;
+   width: 90%;
+   top: 20px;
+   position: relative;
   }
-header {
-  background-color: white;
-  transition: ease-in-out 0.5s;
-}
+
+ h3 {
+   top: 10px;
+  }
+ header {
+   background-color: white;
+   transition: ease-in-out 0.5s;
+  }
+
+ h2 {
+   top: 0px;
+   padding-bottom: 70px;
+   padding-left: 20px;
+  }
