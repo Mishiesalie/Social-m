@@ -360,3 +360,7 @@ img {
 
 /* #endregion */
 /* #region Max width 640px*/
+@media (max-width: 640px){
+  .kpi-card {
+       width: 350px;
+      }
