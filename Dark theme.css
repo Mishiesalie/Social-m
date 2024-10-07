@@ -363,4 +363,8 @@ img {
 @media (max-width: 640px){
   .kpi-card {
        width: 350px;
-      }
+  }
+
+  .kpi-small {
+      width: 350px;
+  }
