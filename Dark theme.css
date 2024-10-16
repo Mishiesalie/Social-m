@@ -388,3 +388,9 @@ img {
 
 /* #endregion */
 /* #region Dark Mode settings*/
+header {
+  background-color: #20222f;
+  }
+  html, body {
+  background-color: #1d2029;
+  }
