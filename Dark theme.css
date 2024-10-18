@@ -394,3 +394,11 @@ header {
   html, body {
   background-color: #1d2029;
   }
+
+  h1 {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
