@@ -410,3 +410,7 @@ header {
   .kpi-small {
     background: #252b43;
   }
+
+  .kpi {
+    color: white;
+  }
