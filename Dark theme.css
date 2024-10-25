@@ -418,3 +418,7 @@ header {
   .views {
     color: white;
     }
+
+    p {
+      color: hsl(229.1, 25.6%, 66.3%);
+      }
