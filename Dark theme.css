@@ -417,8 +417,13 @@ header {
 
   .views {
     color: white;
-    }
+  }
 
-    p {
+  p {
       color: hsl(229.1, 25.6%, 66.3%);
-      }
+  }
+
+  .unit-of-measure {
+     color: hsl(229.1, 25.6%, 66.3%);
+  }
+    
