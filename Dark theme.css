@@ -426,4 +426,12 @@ header {
   .unit-of-measure {
      color: hsl(229.1, 25.6%, 66.3%);
   }
+
+  .page-views {
+    color: hsl(229.1, 25.6%, 66.3%);
+  }
+  .attribution {
+     color: white;
+  }
+    /* #endregion */
     
