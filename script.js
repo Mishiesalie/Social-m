@@ -12,3 +12,5 @@ const theme = document.querySelector("#theme-link");
 
 btn.addEventListener("click", function() {
   // If the current URL contains "ligh-theme.css"
+  if (theme.getAttribute("href") == "resources/css/style.css") {
+    // ... then switch it to "dark-theme.css"
