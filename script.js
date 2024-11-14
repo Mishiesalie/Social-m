@@ -18,3 +18,6 @@ btn.addEventListener("click", function() {
     // Otherwise...
   } else {
     // ... switch it to "light-theme.css"
+    theme.href = "resources/css/style.css";
+  }
+});
