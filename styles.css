@@ -241,17 +241,6 @@ img {
   margin-right: auto;
 }
 
-.overview-wrapper{
-  top: -110px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  position: relative;
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 .kpi-small {
   width: 300px;
